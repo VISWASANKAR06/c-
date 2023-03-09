@@ -1,0 +1,41 @@
+#include<iostream>
+#include<array>
+
+
+class array1
+{
+	public:
+		int a[6]={2,3,4,5,6};
+		array<int, 5> myarray{ 1, 2, 3, 4 };
+		
+		void dinput()
+		
+		{
+		 bool TV;
+		 if(myarray.empty())
+		 {
+		 	cout<<"Yes empty";
+		 }
+		 
+		 else
+		 {
+		 	cout<<"\n Not empty";
+		 }
+		}
+		
+	/*	void doutput()
+		{
+			cout<<"\n The district is"<<dname;
+			cout<<"\n The distance of district from state is"<<distance;
+			cout<<"\n The population of district is "<<population;
+		}*/
+	
+};
+
+int main()
+{
+	array1 d1;
+	d1.dinput();
+	//d1.doutput();
+	return 0;
+}
